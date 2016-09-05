@@ -10,21 +10,27 @@ Problema:
 
 
 Mecanismo para conceder descontos aos clientes;
-DivulgaÁ„o de promoÁıes especÌficas de cada produto;
-Dificuldade de verificar o preÁo dos produtos quando n„o h· a etiqueta do preÁo;
+Divulga√ß√£o de promo√ß√µes espec√≠ficas de cada produto;
+Dificuldade de verificar o pre√ßo dos produtos quando n√£o h√° a etiqueta do pre√ßo;
 
  
-SoluÁ„o:
+Solu√ß√£o:
 
-CriaÁ„o de um aplicativo, onde o cliente, utilizando um smartphone, ao ler o cÛdigo de barras do produto
-pode receber algum desconto ou saber se existe algum tipo de promoÁ„o para aquele produto.
-Ex.: O Cliente faz a leitura do cÛdigo de barras do produto X e este produto X est· com desconto de 50% na segunda unidade ou
+Cria√ß√£o de um aplicativo, onde o cliente, utilizando um smartphone, ao ler o c√≥digo de barras do produto
+pode receber algum desconto ou saber se existe algum tipo de promo√ß√£o para aquele produto.
+Ex.: O Cliente faz a leitura do c√≥digo de barras do produto X e este produto X est√° com desconto de 50% na segunda unidade ou
 na compra de 3 unidades compre por R$ 0,01 o produto Y. 
 
 Atores: Gerente, clientes.
 
 Requisitos Funcionais
 
-Requisitos n„o funcionais
+-Mostrar√° os valores dos produtos em tempo real e se h√° poss√≠veis descontos;
+-Far√° a soma dos produtos para conferir com o total do caixa;
+-Mostrara se h√° descontos em produtos similares;
 
+Requisitos n√£o funcionais
 
+-Utilizara JavaScript 
+-Utilizara banco de dados MYSQL
+-Atualiza√ß√£o constante com o supermercado.
